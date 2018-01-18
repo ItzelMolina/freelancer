@@ -1,4 +1,4 @@
-/*Hypervínculos*/
+/*Tags*/
 a {
   color: white;
   text-decoration: none;
@@ -15,10 +15,9 @@ body {
 }
 
 div.barra > hr {
-  border: none;
   display: inline-block;
   height: 3px;
-  width: 100px;
+  width: 200px;
 }
 
 footer {
@@ -58,7 +57,6 @@ form {
 
 header {
   background: #2C3E50;
-  color: white;
   height: 110px;
   position: fixed;
   width: 100%;
@@ -82,20 +80,7 @@ header > div > h1 {
   position: relative;
   top: 11px;
 }
-/*
-hr {
-  border: none;
-  display: inline-block;
-  height: 5px;
-  margin: 30px auto;
-  padding: none;
-  width: 100px;
-}
 
-i.star {
-  font-size: 30px;
-}
-*/
 input {
   border: none;
   border-bottom: 1px solid #EEEEEE;
@@ -120,8 +105,7 @@ textarea {
   resize: none;
   width: 600px;
 }
-
-/*Hypervínculo del footer*/
+/*ID´S*/
 #a_footer {
   color: #18BC9C;
   text-decoration: none;
@@ -132,12 +116,12 @@ textarea {
   text-decoration: underline;
 }
 
-#a_star:hover {
-  color: white;
+#logo:hover {
+  color: #1F8F76;
 }
 
-/*Editando boton de descarga*/
-#button_1 {
+/*boton de descarga*/
+#button_des {
   background: #18BC9C;
   border: 2px solid white;
   border-radius: 5px;
@@ -152,22 +136,21 @@ textarea {
   color: black;
 }
 
-/*Boton Send*/
-#button_2 {
+/*boton de envio*/
+#button_sen {
   background: #18BC9C;
-  border: none;
   border-radius: 5px;
   color: white;
   font-size: 20px;
   padding: 20px 30px;
 }
 
-#button_2:hover {
+#button_sen:hover {
   background: #128F76;
   color: #F7FFFF;
 }
 
-/*Home*/
+/*home*/
 #section_1 {
   background: #18BC9C;
   color: white;
@@ -177,25 +160,23 @@ textarea {
 }
 
 #section_1 > h1 {
-  border: none;
-  font-size: 80px;
-  margin: 20px auto;
+  font-size: 70px;
+  margin: 20px;
 }
 
 #section_1 > h2 {
-  border: none;
   font-size: 25px;
-  font-weight: 400;
+  font-weight:300;
 }
 
 #section_1 > img {
-  border: none;
   display: block;
-  margin: 0 auto;
-  padding-top: 200px;
+  margin: 0 auto; /*centrado horizontal*/
+  padding-top: 200px; /*anchura de la zona de relleno superior de un elemento*/
 }
 
 /*Portfolio*/
+
 #section_2 {
   height: 810px;
   text-align: center;
@@ -225,9 +206,9 @@ textarea {
   display: inline-block;
   font-size: 20px;
   height: 250px;
-  line-height: 1.5;
+  line-height: 1.5; /*espacio entre lineas*/
   margin: 18px;
-  text-align: left;
+  text-align: justify;
   vertical-align: top;
   width: 29%;
 }
@@ -245,13 +226,12 @@ textarea {
 }
 
 .blue {
-  background: #2C3E50;
+  background-color: #212529;
 }
-
-.blue-marine {
+.blue2 {
   color: #212529;
 }
-
+/*falta*/
 .icon {
   border: 2px solid white;
   border-radius: 50px;
@@ -262,7 +242,7 @@ textarea {
   padding: 5px;
   width: 35px;
 }
-
+/*falta*/
 .icon:hover {
   background: white;
   color: #2C3E50;
@@ -275,7 +255,7 @@ textarea {
 .title-section {
   margin: 0;
   font-size: 50px;
-  padding-top: 100px;
+  padding-top: 100px;/*anchura de la zona de relleno superior de un elemento*/
 }
 
 .white {
